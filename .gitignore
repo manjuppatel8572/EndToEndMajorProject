@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+diabetic_retinopathy/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files
+artifacts/
+*.zip
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# MLflow
+mlruns/
+
+# DVC (if used)
+.dvc/
+.dvcignore
