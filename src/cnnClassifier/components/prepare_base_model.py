@@ -6,7 +6,7 @@ from pathlib import Path
 from cnnClassifier.entity.config_entity import PrepareBaseModelConfig
 
 
- class PrepareBaseModel:
+class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig):
         self.config = config
 

@@ -111,3 +111,90 @@ x=========X]
 [2026-03-27 00:59:00,283: INFO: common: created directory at:artifacts]
 [2026-03-27 00:59:00,285: INFO: common: created directory at:artifacts/prepare_base_model]
 [2026-03-27 00:59:01,288: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-27 17:14:09,113: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 17:14:09,142: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 17:14:09,154: INFO: common: created directory at:artifacts]
+[2026-03-27 17:14:09,164: INFO: common: created directory at:artifacts\training]
+[2026-03-27 17:16:23,417: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 17:16:23,427: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 17:16:23,427: INFO: common: created directory at:artifacts]
+[2026-03-27 17:16:23,434: INFO: common: created directory at:artifacts\training]
+[2026-03-27 17:19:13,018: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 17:19:13,025: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 17:19:13,028: INFO: common: created directory at:artifacts]
+[2026-03-27 17:19:13,037: INFO: common: created directory at:artifacts\training]
+[2026-03-27 17:21:33,659: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 17:21:33,677: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 17:21:33,683: INFO: common: created directory at:artifacts]
+[2026-03-27 17:21:33,687: INFO: common: created directory at:artifacts\training]
+[2026-03-27 17:25:43,562: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 17:25:43,562: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 17:25:43,570: INFO: common: created directory at:artifacts]
+[2026-03-27 17:25:43,578: INFO: common: created directory at:artifacts\training]
+[2026-03-27 17:33:36,702: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 17:33:36,709: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 17:33:36,709: INFO: common: created directory at:artifacts]
+[2026-03-27 17:33:36,709: INFO: common: created directory at:artifacts\training]
+[2026-03-27 22:00:36,950: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 22:00:36,966: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 22:00:36,975: INFO: common: created directory at:artifacts]
+[2026-03-27 22:00:36,980: INFO: common: created directory at:artifacts/prepare_base_model]
+[2026-03-27 22:00:38,496: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-27 22:01:21,897: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 22:01:21,907: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 22:01:21,915: INFO: common: created directory at:artifacts]
+[2026-03-27 22:01:21,919: INFO: common: created directory at:artifacts/prepare_base_model]
+[2026-03-27 22:01:22,766: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-27 22:30:00,112: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 22:30:00,137: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 22:30:00,149: INFO: common: created directory at:artifacts]
+[2026-03-27 22:30:00,167: INFO: common: created directory at:artifacts\training]
+[2026-03-27 22:39:43,095: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-27 22:39:43,102: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-27 22:39:43,103: INFO: common: created directory at:artifacts]
+[2026-03-27 22:39:43,112: INFO: common: created directory at:artifacts\training]
+[2026-03-28 12:54:30,919: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-28 12:54:30,927: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-28 12:54:30,927: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-28 12:54:30,940: INFO: common: created directory at:artifacts]
+[2026-03-28 12:54:30,944: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-03-28 12:54:31,034: ERROR: main: [Errno 13] Permission denied: 'artifacts\\data_ingestion\\aptos2019dataset\\test.csv']
+Traceback (most recent call last):
+  File "C:\Users\MANJU\OneDrive\Desktop\MajorProjectResearchPaper\EndToEndMajorProject\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "C:\Users\MANJU\OneDrive\Desktop\MajorProjectResearchPaper\EndToEndMajorProject\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Users\MANJU\OneDrive\Desktop\MajorProjectResearchPaper\EndToEndMajorProject\src\cnnClassifier\components\data_ingestion.py", line 41, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "C:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\zipfile.py", line 1673, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\zipfile.py", line 1727, in _extract_member
+    open(targetpath, "wb") as target:
+PermissionError: [Errno 13] Permission denied: 'artifacts\\data_ingestion\\aptos2019dataset\\test.csv'
+[2026-03-28 12:59:13,888: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-28 12:59:13,888: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-28 12:59:13,902: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-28 12:59:13,909: INFO: common: created directory at:artifacts]
+[2026-03-28 12:59:13,910: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-03-28 13:00:38,390: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========X]
+[2026-03-28 13:00:38,390: INFO: main: *******************]
+[2026-03-28 13:00:38,390: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-03-28 13:00:38,423: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-28 13:00:38,431: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-28 13:00:38,431: INFO: common: created directory at:artifacts]
+[2026-03-28 13:00:38,449: INFO: common: created directory at:artifacts/prepare_base_model]
+[2026-03-28 13:00:40,523: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-28 13:00:41,949: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x=========X]
+[2026-03-28 13:00:41,955: INFO: main: *******************]
+[2026-03-28 13:00:41,955: INFO: main: >>>>>> stage Training started <<<<<<]
+[2026-03-28 13:00:41,957: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-28 13:00:41,968: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-28 13:00:41,968: INFO: common: created directory at:artifacts]
+[2026-03-28 13:00:41,973: INFO: common: created directory at:artifacts\training]
+[2026-03-28 13:15:12,473: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x=========X]
