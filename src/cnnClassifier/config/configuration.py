@@ -2,6 +2,7 @@ import os
 from src.cnnClassifier.constants import *
 from cnnClassifier.utils.common import read_yaml,create_directories, save_json
 from cnnClassifier.entity.config_entity import (DataIngestionConfig,
+                                                DataTransformationConfig,
                                                 PrepareBaseModelConfig,
                                                 TrainingConfig,
                                                 EvaluationConfig)
@@ -33,6 +34,21 @@ class ConfigurationManager:
         return data_ingestion_config
 
 
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+        config = self.config.data_transformation
+
+        create_directories([config.root_dir])
+
+        data_transformation_config = DataTransformationConfig(
+            root_dir=Path(config.root_dir),
+            base_data_path=Path(config.base_data_path),
+            transformed_data_path=Path(config.transformed_data_path)
+        )
+
+        return data_transformation_config
+
+
+
     def get_prepare_base_model_config(self) -> PrepareBaseModelConfig:
         config = self.config.prepare_base_model
 
@@ -56,7 +72,7 @@ class ConfigurationManager:
         training = self.config.training
         prepare_base_model = self.config.prepare_base_model
         params = self.params
-        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "aptos2019dataset")
+        training_data =  Path(self.config.data_transformation.transformed_data_path)
         create_directories([Path(training.root_dir)])
 
         training_config = TrainingConfig(
@@ -76,7 +92,7 @@ class ConfigurationManager:
     def get_evaluation_config(self) -> EvaluationConfig:
         eval_config = EvaluationConfig(
             path_of_model= "artifacts/training/model.h5",
-            training_data= "artifacts/data_ingestion/aptos2019dataset",
+            training_data= "artifacts/data_transformation/transformed_dataset",
             mlflow_uri= "https://dagshub.com/manjuppatel8572/EndToEndMajorProject.mlflow",
             all_params= self.params,
             params_image_size= self.params.IMAGE_SIZE,

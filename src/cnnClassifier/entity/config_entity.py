@@ -10,6 +10,12 @@ class DataIngestionConfig:
 
 
 
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    root_dir: Path
+    base_data_path: Path
+    transformed_data_path: Path
+
 
 @dataclass(frozen=True)
 class PrepareBaseModelConfig:

@@ -1,4 +1,5 @@
 import os
+import shutil
 import zipfile
 import gdown
 from cnnClassifier import logger
@@ -36,6 +37,16 @@ class DataIngestion:
         Function return None
         """
         unzip_path = self.config.unzip_dir
+
+        # DELETE OLD DATA FIRST
+        #if os.path.exists(unzip_path):
+         #   shutil.rmtree(unzip_path)
+
+        #if os.path.exists(unzip_path):
+         #   print("Data already exists, skipping extraction")
+        #else:
+            #zip_ref.extractall(unzip_path)
+
         os.makedirs(unzip_path,exist_ok= True)
         with zipfile.ZipFile(self.config.local_data_file,'r') as zip_ref:
             zip_ref.extractall(unzip_path)

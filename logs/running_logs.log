@@ -214,3 +214,293 @@ x=========X]
 [2026-04-01 02:24:23,987: INFO: common: created directory at:artifacts]
 [2026-04-01 02:29:42,992: INFO: common: json file saved at: scores.json]
 [2026-04-01 02:30:01,389: INFO: builder_impl: Assets written to: C:\Users\MANJU\AppData\Local\Temp\tmpa2fimqti\model\data\model\assets]
+[2026-04-01 18:20:51,870: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-01 18:20:56,455: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-01 18:20:56,478: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-01 18:20:56,489: INFO: common: created directory at:artifacts]
+[2026-04-01 18:20:56,496: INFO: common: created directory at:artifacts/prepare_base_model]
+[2026-04-01 18:20:57,575: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2026-04-01 18:20:58,818: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2026-04-01 18:21:00,704: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-04-01 18:22:29,186: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-01 18:22:33,265: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-01 18:22:33,282: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-01 18:22:33,289: INFO: common: created directory at:artifacts]
+[2026-04-01 18:22:33,295: INFO: common: created directory at:artifacts\training]
+[2026-04-01 18:22:34,070: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2026-04-01 18:22:34,441: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2026-04-01 18:22:36,506: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\optimizers\__init__.py:309: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+]
+[2026-04-01 18:22:42,685: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2026-04-01 18:22:43,551: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2026-04-01 18:45:34,753: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-01 18:45:34,761: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-01 18:45:34,765: INFO: common: created directory at:artifacts]
+[2026-04-01 18:45:37,513: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2026-04-01 18:48:35,343: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-01 18:48:35,360: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-01 18:48:35,376: INFO: common: created directory at:artifacts]
+[2026-04-01 19:29:35,115: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-01 19:29:35,151: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-01 19:29:35,171: INFO: common: created directory at:artifacts]
+[2026-04-01 19:34:00,899: INFO: common: json file saved at: scores.json]
+[2026-04-01 19:34:18,366: INFO: builder_impl: Assets written to: C:\Users\MANJU\AppData\Local\Temp\tmp5ggyzf_z\model\data\model\assets]
+[2026-04-01 19:57:38,279: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-01 19:57:38,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-01 19:57:38,384: INFO: common: created directory at:artifacts]
+[2026-04-01 20:01:32,644: INFO: common: json file saved at: scores.json]
+[2026-04-01 20:01:40,751: INFO: builder_impl: Assets written to: C:\Users\MANJU\AppData\Local\Temp\tmpq10c7gml\model\data\model\assets]
+[2026-04-01 20:47:43,558: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-01 20:47:43,582: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-01 20:47:43,589: INFO: common: created directory at:artifacts]
+[2026-04-01 20:47:43,596: INFO: common: created directory at:artifacts/data_transformation]
+[2026-04-01 20:52:42,234: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-01 20:52:42,269: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-01 20:52:42,290: INFO: common: created directory at:artifacts]
+[2026-04-01 20:52:42,310: INFO: common: created directory at:artifacts/data_transformation]
+[2026-04-01 21:46:10,780: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-01 21:46:10,790: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-01 21:46:10,797: INFO: common: created directory at:artifacts]
+[2026-04-01 21:46:10,803: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-02 00:20:14,291: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-02 00:20:14,300: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-02 00:20:14,306: INFO: common: created directory at:artifacts]
+[2026-04-02 00:20:14,310: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-02 00:25:21,397: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-02 00:25:21,409: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-02 00:25:21,420: INFO: common: created directory at:artifacts]
+[2026-04-02 00:25:21,429: INFO: common: created directory at:artifacts/data_transformation]
+[2026-04-02 00:30:13,093: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-02 00:30:18,540: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-02 00:30:18,560: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-02 00:30:18,572: INFO: common: created directory at:artifacts]
+[2026-04-02 00:30:18,578: INFO: common: created directory at:artifacts/prepare_base_model]
+[2026-04-02 00:30:20,053: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2026-04-02 00:30:21,193: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2026-04-02 00:30:22,728: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-04-02 00:33:26,257: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-02 00:33:30,340: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-02 00:33:30,358: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-02 00:33:30,366: INFO: common: created directory at:artifacts]
+[2026-04-02 00:42:09,568: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-02 00:42:09,601: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-02 00:42:09,620: INFO: common: created directory at:artifacts]
+[2026-04-02 00:42:09,643: INFO: common: created directory at:artifacts\training]
+[2026-04-02 00:42:11,176: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2026-04-02 00:42:11,406: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2026-04-02 00:42:13,982: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\optimizers\__init__.py:309: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+]
+[2026-04-02 00:42:18,854: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2026-04-02 00:42:19,318: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2026-04-02 00:58:06,566: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-02 00:58:06,578: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-02 00:58:06,586: INFO: common: created directory at:artifacts]
+[2026-04-02 00:58:10,145: WARNING: module_wrapper: From c:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2026-04-02 01:02:43,958: INFO: common: json file saved at: scores.json]
+[2026-04-02 01:03:07,671: INFO: builder_impl: Assets written to: C:\Users\MANJU\AppData\Local\Temp\tmpqrpmg3hr\model\data\model\assets]
+[2026-04-02 01:13:01,298: WARNING: module_wrapper: From C:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-02 01:13:04,260: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-04-02 01:13:04,272: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-02 01:13:04,282: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-02 01:13:04,287: INFO: common: created directory at:artifacts]
+[2026-04-02 01:13:04,289: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-02 01:13:18,678: ERROR: main: [Errno 13] Permission denied: 'artifacts\\data_ingestion\\aptos2019dataset\\train_images\\train_images\\1fd5d860d4d7.png']
+Traceback (most recent call last):
+  File "C:\Users\MANJU\OneDrive\Desktop\MajorProjectResearchPaper\EndToEndMajorProject\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "C:\Users\MANJU\OneDrive\Desktop\MajorProjectResearchPaper\EndToEndMajorProject\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Users\MANJU\OneDrive\Desktop\MajorProjectResearchPaper\EndToEndMajorProject\src\cnnClassifier\components\data_ingestion.py", line 41, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "C:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\zipfile.py", line 1673, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\zipfile.py", line 1727, in _extract_member
+    open(targetpath, "wb") as target:
+PermissionError: [Errno 13] Permission denied: 'artifacts\\data_ingestion\\aptos2019dataset\\train_images\\train_images\\1fd5d860d4d7.png'
+[2026-04-02 01:38:54,468: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-02 01:38:54,492: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-02 01:38:54,509: INFO: common: created directory at:artifacts]
+[2026-04-02 01:38:54,515: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-02 01:40:39,098: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-02 01:40:39,109: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-02 01:40:39,113: INFO: common: created directory at:artifacts]
+[2026-04-02 01:40:39,116: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-02 20:07:26,710: WARNING: module_wrapper: From C:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-02 20:27:05,465: WARNING: module_wrapper: From C:\Users\MANJU\Anaconda3\envs\diabetic_retinopathy\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-03 00:58:04,012: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-03 00:58:06,793: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-04-03 00:58:06,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-03 00:58:06,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-03 00:58:06,807: INFO: common: created directory at:artifacts]
+[2026-04-03 00:58:06,816: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-03 00:58:06,819: ERROR: main: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip']
+Traceback (most recent call last):
+  File "C:\EndToEndMajorProject\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "C:\EndToEndMajorProject\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "C:\EndToEndMajorProject\src\cnnClassifier\components\data_ingestion.py", line 51, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file,'r') as zip_ref:
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1240, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip'
+[2026-04-03 01:04:04,602: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-03 01:04:06,213: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-04-03 01:04:06,220: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-03 01:04:06,223: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-03 01:04:06,225: INFO: common: created directory at:artifacts]
+[2026-04-03 01:04:06,228: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-03 01:04:06,232: ERROR: main: [WinError 5] Access is denied: 'artifacts/data_ingestion\\aptos2019dataset\\test_images\\test_images']
+Traceback (most recent call last):
+  File "C:\EndToEndMajorProject\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "C:\EndToEndMajorProject\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "C:\EndToEndMajorProject\src\cnnClassifier\components\data_ingestion.py", line 43, in extract_zip_file
+    shutil.rmtree(unzip_path)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 739, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 612, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 612, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 612, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 621, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] Access is denied: 'artifacts/data_ingestion\\aptos2019dataset\\test_images\\test_images'
+[2026-04-03 01:09:48,250: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-03 01:09:49,815: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-04-03 01:09:49,834: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-03 01:09:49,834: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-03 01:09:49,838: INFO: common: created directory at:artifacts]
+[2026-04-03 01:09:49,839: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-03 01:09:49,841: ERROR: main: [WinError 5] Access is denied: 'artifacts/data_ingestion\\aptos2019dataset\\test_images\\test_images']
+Traceback (most recent call last):
+  File "C:\EndToEndMajorProject\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "C:\EndToEndMajorProject\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "C:\EndToEndMajorProject\src\cnnClassifier\components\data_ingestion.py", line 43, in extract_zip_file
+    shutil.rmtree(unzip_path)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 739, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 612, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 612, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 612, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 621, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] Access is denied: 'artifacts/data_ingestion\\aptos2019dataset\\test_images\\test_images'
+[2026-04-03 01:17:12,701: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-03 01:17:14,283: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-04-03 01:17:14,283: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-03 01:17:14,283: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-03 01:17:14,283: INFO: common: created directory at:artifacts]
+[2026-04-03 01:17:14,283: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-03 01:17:14,301: ERROR: main: [WinError 5] Access is denied: 'artifacts/data_ingestion\\aptos2019dataset\\test_images\\test_images']
+Traceback (most recent call last):
+  File "C:\EndToEndMajorProject\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "C:\EndToEndMajorProject\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "C:\EndToEndMajorProject\src\cnnClassifier\components\data_ingestion.py", line 43, in extract_zip_file
+    shutil.rmtree(unzip_path)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 739, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 612, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 612, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 612, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onerror)
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 621, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "C:\Users\MANJU\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 619, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] Access is denied: 'artifacts/data_ingestion\\aptos2019dataset\\test_images\\test_images'
+[2026-04-03 01:20:02,058: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2026-04-03 01:20:03,704: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-04-03 01:20:03,710: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-03 01:20:03,710: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-03 01:20:03,710: INFO: common: created directory at:artifacts]
+[2026-04-03 01:20:03,710: INFO: common: created directory at:artifacts/data_ingestion]
+[2026-04-03 01:21:59,114: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=========X]
+[2026-04-03 01:21:59,125: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-03 01:21:59,129: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-03 01:21:59,132: INFO: common: created directory at:artifacts]
+[2026-04-03 01:21:59,136: INFO: common: created directory at:artifacts/data_transformation]
+[2026-04-03 01:24:03,680: INFO: main: *******************]
+[2026-04-03 01:24:03,681: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-04-03 01:24:03,694: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-03 01:24:03,699: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-03 01:24:03,701: INFO: common: created directory at:artifacts]
+[2026-04-03 01:24:03,705: INFO: common: created directory at:artifacts/prepare_base_model]
+[2026-04-03 01:24:04,468: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2026-04-03 01:24:04,851: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2026-04-03 01:24:05,528: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-04-03 01:24:07,129: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x=========X]
+[2026-04-03 01:24:07,129: INFO: main: *******************]
+[2026-04-03 01:24:07,129: INFO: main: >>>>>> stage Training started <<<<<<]
+[2026-04-03 01:24:07,141: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-03 01:24:07,145: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-03 01:24:07,150: INFO: common: created directory at:artifacts]
+[2026-04-03 01:24:07,152: INFO: common: created directory at:artifacts\training]
+[2026-04-03 01:24:09,331: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\optimizers\__init__.py:309: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+]
+[2026-04-03 01:24:11,542: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2026-04-03 01:24:11,683: WARNING: module_wrapper: From C:\EndToEndMajorProject\.venv\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2026-04-03 01:34:21,998: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x=========X]
+[2026-04-03 01:34:21,998: INFO: main: ********************]
+[2026-04-03 01:34:21,998: INFO: main: >>>>>>> stage Evaluation stage started <<<<<<<]
+[2026-04-03 01:34:22,011: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-04-03 01:34:22,017: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-04-03 01:34:22,023: INFO: common: created directory at:artifacts]
+[2026-04-03 01:37:16,370: INFO: common: json file saved at: scores.json]
+[2026-04-03 01:37:16,385: INFO: common: json file saved at: scores.json]
+[2026-04-03 01:37:21,885: INFO: builder_impl: Assets written to: C:\Users\MANJU\AppData\Local\Temp\tmp0j9i4kbi\model\data\model\assets]
+[2026-04-03 01:37:40,635: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<<
+
+x===========x]

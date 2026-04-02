@@ -1,3 +1,4 @@
+import numpy as np
 import tensorflow as tf
 from pathlib import Path
 import mlflow
@@ -63,6 +64,17 @@ class Evaluation:
             mlflow.log_metrics(
                 {"loss": self.score[0], "accuracy": self.score[1]}
             )
+
+            # Create sample input for signature
+            input_sample = np.random.rand(1, *self.config.params_image_size)
+            output_sample = self.model.predict(input_sample)
+
+            signature = mlflow.models.infer_signature(
+                input_sample,
+                output_sample
+            )
+
+
             # Model registry does not work with file store
             if tracking_url_type_store != "file":
 
@@ -70,6 +82,13 @@ class Evaluation:
                 # There are other ways to use the Model Registry, which depends on the use case,
                 # please refer to the doc for more information:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-                mlflow.keras.log_model(self.model, "model", registered_model_name = "VGG16Model")
+                mlflow.keras.log_model(self.model, 
+                                       "model", 
+                                       signature= signature ,
+                                       registered_model_name = "VGG16Model"
+                                       )
             else:
-                mlflow.keras.log_model(self.model, "model")
+                mlflow.keras.log_model(self.model, 
+                                       "model",
+                                       signature= signature
+                                       )
